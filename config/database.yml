@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: url_minify
+  pool: 5
+  username: pgadmin
+  password: pgadmin
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: url_minify_test
+  pool: 5
+  username: pgadmin
+  password: pgadmin
+  host: localhost
